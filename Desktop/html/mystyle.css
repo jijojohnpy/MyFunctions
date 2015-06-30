@@ -1,0 +1,23 @@
+header{
+    background-color: #29a040;
+    width: 1000px;
+    height: 125px;
+    margin: 0;
+}
+.logo{
+    width:82px;
+    height: 82px;
+    float: left;
+    margin: 20px 51px;
+}
+.heads{
+    float: right;
+}
+.heads#list{
+    float: right;
+}
+nav{
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
