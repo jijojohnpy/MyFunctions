@@ -2,6 +2,7 @@ header{
     background-color: #29a040;
     width: 1000px;
     height: 125px;
+    padding: 0;
     margin: 0;
 }
 .logo{
@@ -10,14 +11,59 @@ header{
     float: left;
     margin: 20px 51px;
 }
-.heads{
+.heads ul{
     float: right;
+    margin-top: 35px;
+    margin-right: 50px;
 }
-.heads#list{
-    float: right;
-}
-nav{
+.heads ul li{
+    width: 16px;
+    height: 13px;  
     list-style-type: none;
     display: inline;
-    text-decoration: none;
 }
+.menu ul{
+    text-align: left;
+    padding: 78px 533px; 
+    width: 420px;
+    height: 12px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;  
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0px 9px;
+}
+section{
+    background-image: url("bg.jpg");
+    width: 1000px;
+    height: 627px;
+}
+#overlay{
+    width:1000px;
+    height:627px;
+    background:rgba(53, 53, 53, 0.5);
+    padding: 20px 20px 20px 50px;
+}
+#overlay #textcontent{
+    background-color: white;
+    width: 38%;
+    height: 78%;
+    font-family: Arial;
+    padding:20px 30px;
+    float: left;
+}
+#overlay #textcontent .heading{
+    font-size: 18px;
+}
+#overlay #textcontent .body{
+    font-size: 12px;
+    line-height: 18px;
+}
+#overlay #fig1{
+    background: url(thumbnail1.jpg);
